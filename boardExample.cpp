@@ -2,7 +2,9 @@
 using namespace std;
 
 void markBoard(int cellNumber, string symbol, string *board) {
-  board[cellNumber] = symbol;
+  if(cellNumber < 9 && cellNumber >= 0) {
+    board[cellNumber] = symbol;
+  }
 }
 
 void printBoardToScreen(string *board) {
@@ -16,15 +18,16 @@ void printBoardToScreen(string *board) {
 }
 
 int main() {
-  // Data structure is still exposed in the public main
   string board[9] = { "_", "_", "_", "_", "_", "_", "_", "_", "_" };
 
-  // But we do have a bit of abstraction when marking the board
   markBoard(0, "X", board);
   markBoard(3, "O", board);
   markBoard(7, "X", board);
 
-  // The code to print the board looks nicer too
+  // We can add some validations to make sure the user's input is not out of range
+  markBoard(5000, "X", board);
+  markBoard(-24, "O", board);
+
   printBoardToScreen(board);
 
   return 0;
