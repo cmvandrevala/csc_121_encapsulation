@@ -34,3 +34,4 @@ g++ boardExample.cpp -o boardExample
 1. Checkpoint 1 - No code structure
 2. Checkpoint 2 - Functions
 3. Checkpoint 3 - Validations With Functions
+4. Checkpoint 4 - First pass at writing a class
