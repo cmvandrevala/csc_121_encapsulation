@@ -32,3 +32,4 @@ g++ boardExample.cpp -o boardExample
 ## Checkpoints
 
 1. Checkpoint 1 - No code structure
+2. Checkpoint 2 - Functions
