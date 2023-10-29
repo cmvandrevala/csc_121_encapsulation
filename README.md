@@ -28,3 +28,7 @@ You can compile this code using a C++ compiler of your choice and then execute t
 g++ boardExample.cpp -o boardExample
 ./boardExample
 ```
+
+## Checkpoints
+
+1. Checkpoint 1 - No code structure
