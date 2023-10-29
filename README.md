@@ -35,3 +35,4 @@ g++ boardExample.cpp -o boardExample
 2. Checkpoint 2 - Functions
 3. Checkpoint 3 - Validations With Functions
 4. Checkpoint 4 - First pass at writing a class
+5. Checkpoint 5 - Encapsulating data
