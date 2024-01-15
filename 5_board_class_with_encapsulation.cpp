@@ -36,8 +36,5 @@ int main() {
   board.markBoard(7, "X");
   board.printBoardToScreen();
 
-  // By making board private, this line will now throw an error
-  // std::cout << board.board;
-
   return 0;
 }

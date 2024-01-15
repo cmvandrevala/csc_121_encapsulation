@@ -24,7 +24,6 @@ int main() {
   markBoard(3, "O", board);
   markBoard(7, "X", board);
 
-  // We can add some validations to make sure the user's input is not out of range
   markBoard(5000, "X", board);
   markBoard(-24, "O", board);
 

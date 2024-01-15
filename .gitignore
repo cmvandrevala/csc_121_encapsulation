@@ -39,3 +39,9 @@
 
 boardExample
 .DS_Store
+
+1_data_structure_without_encapsulation
+2_abstraction_through_functions
+3_functions_with_validations
+4_board_class_with_public_methods
+5_board_class_with_encapsulation
