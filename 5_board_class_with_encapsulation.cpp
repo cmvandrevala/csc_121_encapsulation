@@ -13,13 +13,13 @@ class Board {
 
     void markBoard(int cellNumber, string symbol) {
       if(cellNumber < 9 && cellNumber >= 0) {
-        this->board[cellNumber] = symbol;
+        board[cellNumber] = symbol;
       }
     }
 
     void printBoardToScreen() {
       for (int i = 0; i < 9; i++) {
-        std::cout << this->board[i] << " ";
+        std::cout << board[i] << " ";
         if((i + 1) % 3 == 0) {
           std::cout << "\n";
         }
